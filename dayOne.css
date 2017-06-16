@@ -2,12 +2,20 @@
   background: #d3d3d3;
 }
 
+
+
 h1{
   color: maroon;
+  font-family: "Futura";
 }
 
 h2{
   color: goldenrod;
+  font-style: oblique;
+}
+
+.question {
+  font-family: "Futura";
 }
 
 .answer {
@@ -16,4 +24,20 @@ h2{
   margin: 20px;
 
   padding: 8px;
+}
+
+.linkToIndexDiv {
+  background: maroon;
+  width: 200px;
+  height: 25px;
+}
+
+.linkToIndex {
+  color: white;
+  font-family: "Futura";
+  text-decoration: none;
+}
+
+.linkToIndexP {
+  text-align: center;
 }

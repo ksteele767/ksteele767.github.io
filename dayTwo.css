@@ -4,10 +4,12 @@
 
 h1{
   color: maroon;
+  font-family: "Futura";
 }
 
 h2{
   color: goldenrod;
+  font-style: oblique;
 }
 
 .dayTwo{
@@ -28,4 +30,20 @@ h2{
   color: #717171;
   width: 460px;
   margin: 0px 15px 15px 10px;
+}
+
+.linkToIndexDiv {
+  background: maroon;
+  width: 200px;
+  height: 25px;
+}
+
+.linkToIndex {
+  color: white;
+  font-family: "Futura";
+  text-decoration: none;
+}
+
+.linkToIndexP {
+  text-align: center;
 }
