@@ -1,0 +1,31 @@
+.dayTwoHtml{
+  background: #d3d3d3;
+}
+
+h1{
+  color: maroon;
+}
+
+h2{
+  color: goldenrod;
+}
+
+.dayTwo{
+  color: #717171;
+  width: 45%;
+  margin: 20px;
+
+  padding: 8px;
+}
+
+.DigitalMusic{
+  width: 480px;
+  height: 565px;
+  border: 15px solid #778899;
+}
+
+.description{
+  color: #717171;
+  width: 460px;
+  margin: 0px 15px 15px 10px;
+}

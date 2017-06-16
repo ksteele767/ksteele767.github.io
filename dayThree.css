@@ -1,0 +1,30 @@
+.dayThreeHtml{
+  background: #d3d3d3;
+}
+
+h1{
+  color: maroon;
+}
+
+h2{
+  color: goldenrod;
+}
+
+.dayThree{
+  color: #717171;
+  width: 45%;
+  margin: 20px;
+  padding: 8px;
+}
+
+.description{
+  color: #717171;
+  width: 340px;
+  margin: 0px 15px 15px 15px;
+}
+
+.img{
+  width: 360px;
+  height: 425px;
+  border: 15px solid #778899;
+}

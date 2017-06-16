@@ -1,0 +1,84 @@
+<!Day One Starter File/Index>
+<html>
+
+  <head>
+    <link rel="stylesheet" type = "text/css" href="index.css">
+
+    <meta charset="utf-8">
+
+    <title>Digital Culture Summer Institute</title>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbfSBInJ4BG9Q9iqeQKuBX5sKsYt-qMsU"></script>
+    <style>
+      #mapcanvas{
+        height: 400px;
+        background-color: #aaaaaa;
+        margin: 20px;
+        width: 400px;
+
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1 class="index"> Digital Culture Summer Institute Daily Blog - Keenan Steele </h1>
+    <h2 class="index"> Monday, June 12th, 2017 </h2>
+    
+
+    <div class="DCSI">
+<p class="DCSILink1"> <a href="http://summer.digitalculture.asu.edu/" class="DCSILink"> Digtal Culture Summer Institue </a></p>
+    </div>
+
+    <div class="dayOneDiv">
+      <p class="dayOneP" ><a href="Day One.html" class="dayOne">Day One</a></p>
+    </div>
+
+<div class="dayTwoDiv">
+  <p class="dayTwoP" ><a href="Day Two.html" class="dayTwo">Day Two</a></p>
+</div>
+<div class="dayThreeDiv">
+    <p class="dayThreeP" ><a href="Day Three.html" class="dayThree">Day Three</a></p>
+</div>
+    <div id="mapcanvas">
+
+    </div>
+    <script>
+      var map;
+      var infoWindow;
+      var geocoder = new google.maps.Geocoder();
+      var address = "950 S Forest Mall, Tempe, AZ 85281";
+      var geocodeOptions = {
+        address: address
+      }
+      geocoder.geocode( geocodeOptions, addressCallback );
+
+      function addressCallback( results, status ) {
+        console.log("addressCallback")
+        if (status == google.maps.GeocoderStatus.OK){
+          console.log("status ok")
+          var location = results[0].geometry.location;
+          console.log("location: " + location)
+
+          var mapDiv = document.getElementById("mapcanvas");
+          var mapOptions = {
+            zoom: 16,
+            center: location,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          map = new google.maps.Map( mapDiv, mapOptions );
+
+          var marker = new google.maps.Marker({
+          position: location,
+          clickable: true,
+          title: "School of Arts, Media, and Engineering",
+          map: map
+        });
+      }
+    }
+    </script>
+
+  </body>
+
+</html>

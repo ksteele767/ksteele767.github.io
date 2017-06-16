@@ -1,0 +1,19 @@
+.dayOneHtml {
+  background: #d3d3d3;
+}
+
+h1{
+  color: maroon;
+}
+
+h2{
+  color: goldenrod;
+}
+
+.answer {
+  color: #717171;
+  width: 45%;
+  margin: 20px;
+
+  padding: 8px;
+}

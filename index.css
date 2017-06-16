@@ -1,0 +1,136 @@
+h1{
+  color:maroon;
+  font-family: "Futura";
+}
+
+h2{
+  color:goldenrod;
+  font-style: oblique;
+}
+
+h3{
+  font-style: italic;
+}
+
+html{
+  background: #d3d3d3;
+}
+
+.answer{
+  color: #717171;
+  width: 45%;
+  margin: 20px;
+  padding: 8px;
+}
+
+.DCSI{
+  width: 250px;
+  height: 25px;
+  background:maroon;
+}
+
+.DCSI:hover {
+  background: #dd0000;
+  transform: scale(1.05);
+}
+
+.DCSILink:link {
+  color: white;
+  font-family: "Futura";
+  text-decoration: none;
+
+}
+  .DCSILink:visited {
+    color: white;
+    font-family: "Futura";
+    text-decoration: none;
+
+}
+
+.DCSILink1 {
+  text-align: center;
+}
+
+.dayOneDiv {
+  width:100px;
+  height: 25px;
+  background: maroon;
+}
+
+.dayOneDiv:hover {
+  background: #dd0000;
+  transform: scale(1.05);
+}
+
+.dayOne:link {
+  color: white;
+  font-family: "Futura";
+  text-decoration: none;
+
+}
+  .dayOne:visited {
+    color: white;
+    font-family: "Futura";
+    text-decoration: none;
+
+}
+
+.dayOneP {
+  text-align: center;
+}
+
+.dayTwoDiv {
+  width:100px;
+  height: 25px;
+  background: maroon;
+}
+
+.dayTwoDiv:hover {
+  background: #dd0000;
+  transform: scale(1.05);
+}
+
+.dayTwo:link {
+  color: white;
+  font-family: "Futura";
+  text-decoration: none;
+
+}
+  .dayTwo:visited {
+    color: white;
+    font-family: "Futura";
+    text-decoration: none;
+
+}
+
+.dayTwoP {
+  text-align: center;
+}
+
+.dayThreeDiv {
+  width:100px;
+  height: 25px;
+  background: maroon;
+}
+
+.dayThreeDiv:hover {
+  background: #dd0000;
+  transform: scale(1.05);
+}
+
+.dayThree:link {
+  color: white;
+  font-family: "Futura";
+  text-decoration: none;
+
+}
+  .dayThree:visited {
+    color: white;
+    font-family: "Futura";
+    text-decoration: none;
+
+}
+
+.dayThreeP {
+  text-align: center;
+}
