@@ -32,6 +32,11 @@ h2{
   height: 25px;
 }
 
+.linkToIndexDiv:hover {
+  background: #dd0000;
+  transform: scale(1.05);
+}
+
 .linkToIndex {
   color: white;
   font-family: "Futura";

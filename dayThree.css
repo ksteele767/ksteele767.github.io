@@ -4,10 +4,12 @@
 
 h1{
   color: maroon;
+  font-family: "Futura";
 }
 
 h2{
   color: goldenrod;
+  font-style: oblique;
 }
 
 .dayThree{
@@ -27,4 +29,25 @@ h2{
   width: 360px;
   height: 425px;
   border: 15px solid #778899;
+}
+
+.linkToIndexDiv {
+  background: maroon;
+  width: 200px;
+  height: 25px;
+}
+
+.linkToIndexDiv:hover {
+  background: #dd0000;
+  transform: scale(1.05);
+}
+
+.linkToIndex {
+  color: white;
+  font-family: "Futura";
+  text-decoration: none;
+}
+
+.linkToIndexP {
+  text-align: center;
 }
